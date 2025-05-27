@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <footer>
+
+  </footer>
+  <main>
+    <div class="main_calculator">
+      <div class="Calculator">
+
+        <div class="calculator_screen">
+          <!-- <div class="BackDisplay">
+          <div class="BackDisplay-Input"></div>
+          <div class="BackDisplay-Equel"></div>
+          <div class="BackDisplay-Result"></div>
+          </div> -->
+
+
+          <input aria-invalid="false" autocomplete="off" class="Textinput-Control" placeholder="0" value>
+
+
+
+        </div>
+
+        <div class="grand_butt">
+
+          <button class="ingridien btnC" id="clear">C</button>
+          <button class="ingridien btnDel">DEL</button>
+          <button class="ingridien btnPercent">%</button>
+          <button class="ingridien btn(">(</button>
+          <button class="ingridien btn)">)</button>
+          <button class="ingridien btn7">7</button>
+          <button class="ingridien btn8">8</button>
+          <button class="ingridien btn9">9</button>
+          <button class="ingridien btnMultipli">*</button>
+          <button class="ingridien btnXDegree" data-arg="^">x<sup>y</sup></button>
+
+          <button class="ingridien btn4">4</button>
+          <button class="ingridien btn5">5</button>
+          <button class="ingridien btn6">6</button>
+          <button class="ingridien btnDivision">/</button>
+
+          <button class="ingridien btnMinus">-</button>
+
+          <button class="ingridien btn1">1</button>
+          <button class="ingridien btn2">2</button>
+          <button class="ingridien btn3">3</button>
+
+          <button class="ingridien btnPlus">+</button>
+          <button class="ingridien btnDot">.</button>
+
+
+
+
+
+          <button class="ingridien btn0">0</button>
+          <button class="ingridien btn0">00</button>
+          <button class="ingridien btnEquals">=</button>
+
+
+
+
+        </div>
+      </div>
+    </div>
+    <section class="calc_history">
+
+      <svg class='trash_can' xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 16 16">
+        <g fill="#000000">
+          <path
+            d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0z" />
+          <path
+            d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1zM4.118 4L4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4zM2.5 3h11V2h-11z" />
+        </g>
+      </svg>
+      <div class="history__nodes"></div>
+    </section>
+  </main>
+
+  <script type="module" src="/scripts/calcScript.js"></script>
+  <script type="module" src="/scripts/HistoryScript.js"></script>
+</body>
+
+</html>
